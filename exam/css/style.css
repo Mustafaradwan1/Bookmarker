@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    box-sizing: border-box;
+  }
+  a{
+
+    text-decoration: none;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+header{
+background-color: #1e202b;
+min-height: 100vh;
+}
+.navbar{
+  height: 150px;
+  
+}
+.navbar-brand{
+  width: 15%;
+}
+.navbar-brand p{
+  font-size: 12px;
+}
+.nav-link{
+  color: #fff;
+  transition: .3s;
+  cursor: pointer;
+  padding: 0 15px !important;
+
+  border: 2px solid transparent;
+}
+.nav-link:hover{
+color: #009ad8;
+
+border: 2px solid #009ad8;
+
+}
+.nav-link.active{
+  color: #009ad8 !important;
+  border: 2px solid #009ad8;
+
+}
+.header{
+  height: 50vh;
+  background-image: url(../img/img/p.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.562);
+  width: 100%;
+  height: 100%;
+}
+.overlay .btn{
+  height: 50px;
+  padding: 0;
+  top: 70px;
+}
+.overlay .btn button{
+  width: 100px;
+  position: absolute;
+  height: 40px;
+  border: none;
+  top: 5px;
+  right: 4px;
+  background-color: #009ad8;
+  color: #fff;
+}
+.btn{
+
+  --bs-btn-border-width: none;
+}
+.overlay .btn input{
+  width: 100%;
+  height: 100%;
+  border: transparent;
+  padding: 0 20px;
+  background-color: #1e202b;
+  outline: none;
+}
+.overlay .btn input[placeholder]{
+  color: white;
+}
+.boxs {
+  position: relative;
+  top: -50%;
+  z-index: 5000;
+}
+.boxs  .col{
+  padding:0;
+  color: #fff;
+}
+.boxs  .col .box{
+  height: 300px;
+}
+.boxs .col:nth-child(1) .box{
+  background-color: #262936;
+}
+.boxs .col:nth-child(3) .box{
+  background-color: #262936;
+}
+.boxs .col:nth-child(2) .box{
+  background-color: #1b1c22;
+}
+.boxs  .col .box .head{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+.boxs  .col .box .info{
+  padding: 30px 15px;
+}
+.boxs  .col .box .info h5{
+  font-size: 75px;
+  margin-top: 15px;
+}
+.sun{
+  color: #009ad8;
+}
